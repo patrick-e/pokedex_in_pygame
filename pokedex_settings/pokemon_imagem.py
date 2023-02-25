@@ -10,11 +10,11 @@ class request_image():
 
     def image(self):
         response = google_images_download.googleimagesdownload()
-        arguments = {"keywords": nome, "limit": 101, "print_urls": True}
+        arguments = {"keywords": nome, "limit": 101, "print_urls": True,'exception':"--chromedriver"}
         paths = response.download(arguments)
         print(paths)
 
 
-nome = 'Pikachu'
+nome = 'charmander'
 r = request_image(nome)
 r.image()
