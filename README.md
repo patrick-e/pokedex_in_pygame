@@ -4,8 +4,10 @@
 
 dependence 
 
- - `pip install google_images_download`
- -	`pip install pygame`
+ - `pip install -r requirements.txt`
+ 
+ # how to run project:
+ - `python app.py`
  
  # project idea
  the project idea is make a pokedex app to desktop with pokemon's dynamic images (in other words imagens dowload and delete), pokemon ' s elements and powers.
